@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.conteudo{
+display: flex;
+justify-content:center;
+align-items: center;
+height: 100vh;
+background: linear-gradient(0deg, #f77062 0%, #FA58B6 100%);
+column-gap: 0px;
+position: relative;
+font-family: 'Open Sans', sans-serif;
+font-display: fallback;
+}
+
+.primeiracoluna{
+    display: flex;
+    flex-direction: column;
+    background: #7A0BC0;
+    height: 500px;
+    width: 800px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color: white;
+    padding: 65px;
+    gap: 10px;
+}
+
+.titulo{
+    font-weight: 400;
+    font-size: 35px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #F9D371;
+
+}
+
+.texto{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.lista{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.textofinal{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.segundacoluna{
+    color: #434C5E;
+    background: white;
+    height: 500px;
+    width: 400px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+
+form label, form legend{
+    display:block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input{
+    display:block;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #434C5E;
+    padding: 10px 25px;
+    width: 80%;
+    border-radius: 15px;
+    background: #ECEFF4;
+    border: none;
+}
+
+.contato{
+    font-size: 18;
+    margin-bottom: 10px;
+}
+
+fieldset{
+    border: none;
+}
+
+select{
+    font-size: 18px;
+    border: none;
+    color: #434C5E;
+    margin-bottom: 10px;
+}
+
+option{
+    font-size: 50;
+}
+
+.botao{
+    margin-top: 15px;
+    width: 60%;
+    height: 40px;
+    margin-left: 40px;
+    border-radius: 15px;
+    border:none;
+    background: linear-gradient(0deg, #f77062 0%, #FA58B6 100%);
+    font-family: 'Open Sans', sans-serif;
+    font-display: fallback;
+    font-size: 18px;
+    color: white;
+}
+
+.botao:hover{
+    background: #7A0BC0;
+    transform: scale(1.2)
+
+}
