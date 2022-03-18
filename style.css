@@ -199,6 +199,52 @@ option{
     }
 }
 
+/*Responsividade iphone 6,7 e 8 plus, XR, Xs max, 11 Pro max */
+@media(max-width: 414px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 110vh;
+        width: 100%;
+        align-items: center;
+    }
+
+    .primeiracoluna{
+        height: 53vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 47vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
+    }
+    
+    .botao{
+        margin-left: 9rem;
+    }
+}
+
+
 /*Responsividade para mobiles*/
 /*Responsividade iphone 12 Pro*/
 @media(max-width: 390px){
@@ -245,7 +291,8 @@ option{
     }
 }
 
-/*Responsividade iphone SE*/
+
+/*Responsividade iphone 6,7, 8, X*, 11, 12 mini, 13 mini*/
 @media(max-width: 375px){
     .conteudo{
         display:block;
@@ -335,18 +382,18 @@ option{
     }
 }
 
-/*Responsividade Samsung S8*/
+/*Responsividade Iphone SE*/
 @media(max-width: 320px){
     .conteudo{
         display:block;
         text-align: center;
-        height: 120vh;
+        height: 146vh;
         width: 100%;
         align-items: center;
     }
 
     .primeiracoluna{
-        height: 65vh;
+        height: 75vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -359,7 +406,7 @@ option{
     }
 
     .segundacoluna{
-        height: 50vh;
+        height: 60vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -376,6 +423,6 @@ option{
     }
     
     .botao{
-        margin-left: 9rem;
+        margin-left: 8rem;
     }
 }
