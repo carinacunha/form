@@ -245,7 +245,7 @@ option{
 }
 
 /*Responsividade iphone 12 Pro*/
-@media(max-width: 390px){
+@media(min-width: 390px) and (max-width: 413px){
     .conteudo{
         display:block;
         text-align: center;
@@ -288,9 +288,53 @@ option{
         margin-left: 9rem;
     }
 }
+/*Responsividade iphone 6,7, 8, X*, 11, 12 mini, 13 mini*/
+@media(min-width: 375px) and (max-width: 389px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 135vh;
+        width: 100%;
+        align-items: center;
+    }
+
+    .primeiracoluna{
+        height: 66vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 54vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
+    }
+    
+    .botao{
+        margin-left: 9rem;
+    }
+}
 
 /*Responsividade Samsung S8*/
-@media(max-width: 360px){
+@media(min-width: 360px) and (max-width: 374px){
     .conteudo{
         display:block;
         text-align: center;
@@ -335,7 +379,7 @@ option{
 }
 
 /*Responsividade Iphone SE*/
-@media(max-width: 320px){
+@media(min-width: 320px) and (max-width: 359px){
     .conteudo{
         display:block;
         text-align: center;
