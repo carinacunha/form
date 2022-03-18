@@ -20,7 +20,6 @@ align-items: center;
 background: linear-gradient(0deg, #f77062 0%, #FA58B6 100%);
 font-display: fallback;
 font-family: 'Open Sans', sans-serif;
-
 }
 
 .primeiracoluna{
@@ -205,13 +204,13 @@ option{
     .conteudo{
         display:block;
         text-align: center;
-        height: 100vh;
+        height: 120vh;
         width: 100%;
         align-items: center;
     }
 
     .primeiracoluna{
-        height: 50vh;
+        height: 58vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -224,7 +223,7 @@ option{
     }
 
     .segundacoluna{
-        height: 42vh;
+        height: 48vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
