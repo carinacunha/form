@@ -152,7 +152,7 @@ option{
         font-size: 50%;
     }
 
-    /*Responsividade iphone XR*/
+/*Responsividade iphone XR*/
 @media(max-width: 414px){
     .conteudo{
         display:block;
@@ -161,11 +161,10 @@ option{
         width: 100%;
         align-items: center;
         padding: 1.5rem;
-        
     }
 
     .primeiracoluna{
-        height: 45vh;
+        height: 25vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -199,7 +198,6 @@ option{
     }
 }
 
-/*Responsividade iphone 6,7 e 8 plus, XR, Xs max, 11 Pro max */
 @media(max-width: 414px){
     .conteudo{
         display:block;
@@ -244,8 +242,6 @@ option{
     }
 }
 
-
-/*Responsividade para mobiles*/
 /*Responsividade iphone 12 Pro*/
 @media(max-width: 390px){
     .conteudo{
@@ -290,7 +286,6 @@ option{
         margin-left: 9rem;
     }
 }
-
 
 /*Responsividade iphone 6,7, 8, X*, 11, 12 mini, 13 mini*/
 @media(max-width: 375px){
