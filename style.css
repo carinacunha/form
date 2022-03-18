@@ -20,6 +20,7 @@ align-items: center;
 background: linear-gradient(0deg, #f77062 0%, #FA58B6 100%);
 font-display: fallback;
 font-family: 'Open Sans', sans-serif;
+
 }
 
 .primeiracoluna{
@@ -204,13 +205,13 @@ option{
     .conteudo{
         display:block;
         text-align: center;
-        height: 120vh;
+        height: 100vh;
         width: 100%;
         align-items: center;
     }
 
     .primeiracoluna{
-        height: 58vh;
+        height: 50vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -223,7 +224,7 @@ option{
     }
 
     .segundacoluna{
-        height: 48vh;
+        height: 42vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -314,6 +315,51 @@ option{
 
     .segundacoluna{
         height: 47vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
+    }
+    
+    .botao{
+        margin-left: 9rem;
+    }
+}
+
+/*Responsividade Samsung S8*/
+@media(max-width: 320px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 120vh;
+        width: 100%;
+        align-items: center;
+    }
+
+    .primeiracoluna{
+        height: 65vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 50vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
