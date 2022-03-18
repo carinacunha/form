@@ -294,13 +294,13 @@ option{
     .conteudo{
         display:block;
         text-align: center;
-        height: 133vh;
+        height: 140vh;
         width: 100%;
         align-items: center;
     }
 
     .primeiracoluna{
-        height: 70vh;
+        height: 73vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -313,7 +313,7 @@ option{
     }
 
     .segundacoluna{
-        height:57vh;
+        height:60vh;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
