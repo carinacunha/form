@@ -5,97 +5,108 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
+html{
+    /* porcentagem do tamanhox*/
+    font-size: 72.5%;
+}
 
 .conteudo{
-display: flex;
-justify-content:center;
-align-items: center;
-height: 100vh;
-background: linear-gradient(0deg, #f77062 0%, #FA58B6 100%);
+display: inline-grid;
+grid-template-columns: 1.3fr, 1fr;
 column-gap: 0px;
-position: relative;
-font-family: 'Open Sans', sans-serif;
+height: 100vh;
+width: 100%;
+align-items: center;
+background: linear-gradient(0deg, #f77062 0%, #FA58B6 100%);
 font-display: fallback;
+font-family: 'Open Sans', sans-serif;
+
 }
 
 .primeiracoluna{
-    display: flex;
-    flex-direction: column;
+    grid-column-start: 1;
     background: #7A0BC0;
-    height: 500px;
-    width: 800px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+    height: 70vh;
+    width: 50vw;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
     color: white;
-    padding: 65px;
-    gap: 10px;
+    padding: 5.3rem;
+    margin-left: 11rem;   
 }
 
 .titulo{
+    
     font-weight: 400;
-    font-size: 35px;
+    font-size: 2.2rem;
     text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 .subtitulo{
     font-weight: 400;
-    font-size: 30px;
+    font-size: 2rem;
     text-align: center;
     color: #F9D371;
+    padding-bottom: 1.5rem;
 
 }
 
 .texto{
-    font-weight: 400;
-    font-size: 24px;
+    font-size: 1.8rem;
+    padding-bottom: 2rem;
 }
 
 .lista{
-    font-weight: 400;
-    font-size: 18px;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    text-align: justify;
 }
 
-.textofinal{
-    font-weight: 400;
-    font-size: 24px;
+.textofinal{ 
+    font-size: 2rem;
     text-align: center;
+   
 }
 
 .segundacoluna{
+    grid-column-start: 2;
+    align-items: center;
     color: #434C5E;
     background: white;
-    height: 500px;
-    width: 400px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    padding-left: 60px;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    
+    height: 70vh;
+    width: 30vw;
+    margin-right: 18rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
 }
 
 form label, form legend{
-    display:block;
-    font-size: 18px;
-    margin-bottom: 10px;
+    display: inline;
+    margin-bottom: 1rem;
 }
 
 input{
-    display:block;
-    font-size: 18px;
-    margin-bottom: 15px;
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 1rem;
     color: #434C5E;
-    padding: 10px 25px;
-    width: 80%;
-    border-radius: 15px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    height: 3rem;
+    border-radius: 1.5rem;
     background: #ECEFF4;
     border: none;
 }
 
 .contato{
-    font-size: 18;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 fieldset{
@@ -103,32 +114,223 @@ fieldset{
 }
 
 select{
-    font-size: 18px;
+    font-size: 1.5rem;
     border: none;
     color: #434C5E;
-    margin-bottom: 10px;
+    margin-bottom: 1.5rem;
 }
 
 option{
-    font-size: 50;
+    font-size: 1.5rem;
 }
 
 .botao{
-    margin-top: 15px;
-    width: 60%;
-    height: 40px;
-    margin-left: 40px;
-    border-radius: 15px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 6rem;
+    width: 50%;
+    height: 3rem;
+    align-items: center;
+    border-radius: 1.5rem;
     border:none;
     background: linear-gradient(0deg, #f77062 0%, #FA58B6 100%);
     font-family: 'Open Sans', sans-serif;
     font-display: fallback;
-    font-size: 18px;
+    font-size: 1.5rem;
     color: white;
 }
 
 .botao:hover{
     background: #7A0BC0;
     transform: scale(1.2)
+}
 
+
+/*media queries*/
+@media(max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+
+    /*Responsividade iphone XR*/
+@media(max-width: 414px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+        padding: 1.5rem;
+        
+    }
+
+    .primeiracoluna{
+        height: 45vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 6rem;
+    }
+
+    .segundacoluna{
+        height: 38vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
+    }
+    
+    .botao{
+        margin-left: 9rem;
+    }
+}
+
+/*Responsividade para mobiles*/
+/*Responsividade iphone 12 Pro*/
+@media(max-width: 390px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+    }
+
+    .primeiracoluna{
+        height: 50vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 42vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
+    }
+    
+    .botao{
+        margin-left: 9rem;
+    }
+}
+
+/*Responsividade iphone SE*/
+@media(max-width: 375px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 128vh;
+        width: 100%;
+        align-items: center;
+    }
+
+    .primeiracoluna{
+        height: 65vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 52vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
+    }
+    
+    .botao{
+        margin-left: 9rem;
+    }
+}
+
+/*Responsividade Samsung S8*/
+@media(max-width: 360px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 115vh;
+        width: 100%;
+        align-items: center;
+    }
+
+    .primeiracoluna{
+        height: 60vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 47vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
+    }
+    
+    .botao{
+        margin-left: 9rem;
+    }
 }
