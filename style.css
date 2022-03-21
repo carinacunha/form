@@ -151,7 +151,7 @@ option{
         font-size: 50%;
     }
 
-    @media(max-width: 360px){
+    @media(max-device-width: 360px){
         .conteudo{
             display:block;
             text-align: center;
@@ -199,7 +199,7 @@ option{
         }
     }
     
-    @media(width: 375px){
+    @media(device-width: 375px){
         .conteudo{
             display:block;
             text-align: center;
@@ -248,7 +248,7 @@ option{
     }
     
        
-    @media (width: 390px){
+    @media (device-width: 390px){
         .conteudo{
             display:block;
             text-align: center;
@@ -296,11 +296,11 @@ option{
         }
     }
     
-    @media (width: 414px){
+    @media (device-width: 414px){
         .conteudo{
             display:block;
             text-align: center;
-            height: 120vh;
+            height: 113vh;
             width: 100%;
             align-items: center;
             padding-top: 2rem;
@@ -310,7 +310,7 @@ option{
         }
     
         .primeiracoluna{
-            height: 57vh;
+            height: 52vh;
             width: 90vw;
             text-align: justify;
             border-radius: 0rem;
@@ -323,7 +323,7 @@ option{
         }
     
         .segundacoluna{
-            height: 51vh;
+            height: 48vh;
             width: 90vw;
             text-align: justify;
             border-radius: 0rem;
