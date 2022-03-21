@@ -151,196 +151,196 @@ option{
         font-size: 50%;
     }
 
-    @media(max-device-width: 360px){
-        .conteudo{
-            display:block;
-            text-align: center;
-            height: 127vh;
-            width: 100%;
-            align-items: center;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-        }
-    
-        .primeiracoluna{
-            height: 65vh;
-            width: 90vw;
-            text-align: justify;
-            border-radius: 0rem;
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            padding: 3rem;
-            margin-left: 1rem; 
-            margin-right: 3rem;
-            margin-top: 3rem;
-        }
-    
-        .segundacoluna{
-            height: 52vh;
-            width: 90vw;
-            text-align: justify;
-            border-radius: 0rem;
-            border-bottom-left-radius: 1.5rem;
-            border-bottom-right-radius: 1.5rem;
-            padding: 3rem;
-            margin-left: 1rem; 
-            margin-right: 5rem;
-            margin-bottom: 3rem;
-        }
-    
-        form label, form legend{
-            text-align: left;
-        }
-        
-        .botao{
-            margin-left: 9rem;
-        }
+@media(max-device-width: 360px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 135vh;
+        width: 100%;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .primeiracoluna{
+        height: 70vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 56vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
     }
     
-    @media(device-width: 375px){
-        .conteudo{
-            display:block;
-            text-align: center;
-            height: 135vh;
-            width: 100%;
-            align-items: center;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-        }
-    
-        .primeiracoluna{
-            height: 68vh;
-            width: 90vw;
-            text-align: justify;
-            border-radius: 0rem;
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            padding: 3rem;
-            margin-left: 1rem; 
-            margin-right: 3rem;
-            margin-top: 3rem;
-        }
-    
-        .segundacoluna{
-            height: 57vh;
-            width: 90vw;
-            text-align: justify;
-            border-radius: 0rem;
-            border-bottom-left-radius: 1.5rem;
-            border-bottom-right-radius: 1.5rem;
-            padding: 3rem;
-            margin-left: 1rem; 
-            margin-right: 5rem;
-            margin-bottom: 3rem;
-        }
-    
-        form label, form legend{
-            text-align: left;
-        }
-        
-        .botao{
-            margin-left: 9rem;
-        }
+    .botao{
+        margin-left: 9rem;
+    }
+}
+
+@media(device-width: 375px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 130vh;
+        width: 100%;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .primeiracoluna{
+        height: 64vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 54vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
     }
     
-       
-    @media (device-width: 390px){
-        .conteudo{
-            display:block;
-            text-align: center;
-            height: 123vh;
-            width: 100%;
-            align-items: center;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-        }
+    .botao{
+        margin-left: 9rem;
+    }
+}
+
     
-        .primeiracoluna{
-            height: 60vh;
-            width: 90vw;
-            text-align: justify;
-            border-radius: 0rem;
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            padding: 3rem;
-            margin-left: 1rem; 
-            margin-right: 3rem;
-            margin-top: 3rem;
-        }
-    
-        .segundacoluna{
-            height: 52vh;
-            width: 90vw;
-            text-align: justify;
-            border-radius: 0rem;
-            border-bottom-left-radius: 1.5rem;
-            border-bottom-right-radius: 1.5rem;
-            padding: 3rem;
-            margin-left: 1rem; 
-            margin-right: 5rem;
-            margin-bottom: 3rem;
-        }
-    
-        form label, form legend{
-            text-align: left;
-        }
-        
-        .botao{
-            margin-left: 9rem;
-        }
+@media (device-width: 390px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 123vh;
+        width: 100%;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .primeiracoluna{
+        height: 60vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 52vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
     }
     
-    @media (device-width: 414px){
-        .conteudo{
-            display:block;
-            text-align: center;
-            height: 113vh;
-            width: 100%;
-            align-items: center;
-            padding-top: 2rem;
-            padding-bottom: 2rem;
-            padding-left: 1.5rem;
-            padding-right: 1.5rem;
-        }
-    
-        .primeiracoluna{
-            height: 52vh;
-            width: 90vw;
-            text-align: justify;
-            border-radius: 0rem;
-            border-top-left-radius: 1.5rem;
-            border-top-right-radius: 1.5rem;
-            padding: 3rem;
-            margin-left: 1rem; 
-            margin-right: 3rem;
-            margin-top: 3rem;
-        }
-    
-        .segundacoluna{
-            height: 48vh;
-            width: 90vw;
-            text-align: justify;
-            border-radius: 0rem;
-            border-bottom-left-radius: 1.5rem;
-            border-bottom-right-radius: 1.5rem;
-            padding: 3rem;
-            margin-left: 1rem; 
-            margin-right: 5rem;
-            margin-bottom: 3rem;
-        }
-    
-        form label, form legend{
-            text-align: left;
-        }
-        
-        .botao{
-            margin-left: 9rem;
-        }
+    .botao{
+        margin-left: 9rem;
     }
+}
+
+@media (device-width: 414px){
+    .conteudo{
+        display:block;
+        text-align: center;
+        height: 124vh;
+        width: 100%;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .primeiracoluna{
+        height: 60vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-top-left-radius: 1.5rem;
+        border-top-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 3rem;
+        margin-top: 3rem;
+    }
+
+    .segundacoluna{
+        height: 53vh;
+        width: 90vw;
+        text-align: justify;
+        border-radius: 0rem;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        padding: 3rem;
+        margin-left: 1rem; 
+        margin-right: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    form label, form legend{
+        text-align: left;
+    }
+    
+    .botao{
+        margin-left: 9rem;
+    }
+}
  
