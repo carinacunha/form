@@ -146,17 +146,16 @@ option{
 }
 
 
-
 @media(max-width: 768px){
     html{
         font-size: 50%;
     }
 
-    @media(min-width: 391px) and (max-width: 414px){
+    @media(max-width: 360px){
         .conteudo{
             display:block;
             text-align: center;
-            height: 110vh;
+            height: 127vh;
             width: 100%;
             align-items: center;
             padding-top: 2rem;
@@ -166,7 +165,7 @@ option{
         }
     
         .primeiracoluna{
-            height: 53vh;
+            height: 65vh;
             width: 90vw;
             text-align: justify;
             border-radius: 0rem;
@@ -179,7 +178,7 @@ option{
         }
     
         .segundacoluna{
-            height: 47vh;
+            height: 52vh;
             width: 90vw;
             text-align: justify;
             border-radius: 0rem;
@@ -199,148 +198,149 @@ option{
             margin-left: 9rem;
         }
     }
-
-/*Responsividade iphone 12 e 12 Pro*/
-@media(min-width: 375px) and (max-width: 390px){
-    .conteudo{
-        display:block;
-        text-align: center;
-        height: 110vh;
-        width: 100%;
-        align-items: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
-
-    .primeiracoluna{
-        height: 49vh;
-        width: 90vw;
-        text-align: justify;
-        border-radius: 0rem;
-        border-top-left-radius: 1.5rem;
-        border-top-right-radius: 1.5rem;
-        padding: 3rem;
-        margin-left: 1rem; 
-        margin-right: 3rem;
-        margin-top: 3rem;
-    }
-
-    .segundacoluna{
-        height: 43vh;
-        width: 90vw;
-        text-align: justify;
-        border-radius: 0rem;
-        border-bottom-left-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-        padding: 3rem;
-        margin-left: 1rem; 
-        margin-right: 5rem;
-        margin-bottom: 3rem;
-    }
-
-    form label, form legend{
-        text-align: left;
+    
+    @media(width: 375px){
+        .conteudo{
+            display:block;
+            text-align: center;
+            height: 132vh;
+            width: 100%;
+            align-items: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    
+        .primeiracoluna{
+            height: 65vh;
+            width: 90vw;
+            text-align: justify;
+            border-radius: 0rem;
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            padding: 3rem;
+            margin-left: 1rem; 
+            margin-right: 3rem;
+            margin-top: 3rem;
+        }
+    
+        .segundacoluna{
+            height: 54vh;
+            width: 90vw;
+            text-align: justify;
+            border-radius: 0rem;
+            border-bottom-left-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+            padding: 3rem;
+            margin-left: 1rem; 
+            margin-right: 5rem;
+            margin-bottom: 3rem;
+        }
+    
+        form label, form legend{
+            text-align: left;
+        }
+        
+        .botao{
+            margin-left: 9rem;
+        }
     }
     
-    .botao{
-        margin-left: 9rem;
-    }
-}
-
-@media(min-width: 360px) and (max-width: 374px){
-    .conteudo{
-        display:block;
-        text-align: center;
-        height: 127vh;
-        width: 100%;
-        align-items: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
-
-    .primeiracoluna{
-        height: 63vh;
-        width: 90vw;
-        text-align: justify;
-        border-radius: 0rem;
-        border-top-left-radius: 1.5rem;
-        border-top-right-radius: 1.5rem;
-        padding: 3rem;
-        margin-left: 1rem; 
-        margin-right: 3rem;
-        margin-top: 3rem;
-    }
-
-    .segundacoluna{
-        height: 52vh;
-        width: 90vw;
-        text-align: justify;
-        border-radius: 0rem;
-        border-bottom-left-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-        padding: 3rem;
-        margin-left: 1rem; 
-        margin-right: 5rem;
-        margin-bottom: 3rem;
-    }
-
-    form label, form legend{
-        text-align: left;
+       
+    @media (width: 390px){
+        .conteudo{
+            display:block;
+            text-align: center;
+            height: 123vh;
+            width: 100%;
+            align-items: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
+    
+        .primeiracoluna{
+            height: 60vh;
+            width: 90vw;
+            text-align: justify;
+            border-radius: 0rem;
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            padding: 3rem;
+            margin-left: 1rem; 
+            margin-right: 3rem;
+            margin-top: 3rem;
+        }
+    
+        .segundacoluna{
+            height: 52vh;
+            width: 90vw;
+            text-align: justify;
+            border-radius: 0rem;
+            border-bottom-left-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+            padding: 3rem;
+            margin-left: 1rem; 
+            margin-right: 5rem;
+            margin-bottom: 3rem;
+        }
+    
+        form label, form legend{
+            text-align: left;
+        }
+        
+        .botao{
+            margin-left: 9rem;
+        }
     }
     
-    .botao{
-        margin-left: 9rem;
-    }
-}
-
-@media(min-width: 320px) and (max-width: 359px){
-    .conteudo{
-        display:block;
-        text-align: center;
-        height: 127vh;
-        width: 100%;
-        align-items: center;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-    }
-
-    .primeiracoluna{
-        height: 63vh;
-        width: 90vw;
-        text-align: justify;
-        border-radius: 0rem;
-        border-top-left-radius: 1.5rem;
-        border-top-right-radius: 1.5rem;
-        padding: 3rem;
-        margin-left: 1rem; 
-        margin-right: 3rem;
-        margin-top: 3rem;
-    }
-
-    .segundacoluna{
-        height: 52vh;
-        width: 90vw;
-        text-align: justify;
-        border-radius: 0rem;
-        border-bottom-left-radius: 1.5rem;
-        border-bottom-right-radius: 1.5rem;
-        padding: 3rem;
-        margin-left: 1rem; 
-        margin-right: 5rem;
-        margin-bottom: 3rem;
-    }
-
-    form label, form legend{
-        text-align: left;
-    }
+    @media (width: 415px){
+        .conteudo{
+            display:block;
+            text-align: center;
+            height: 123vh;
+            width: 100%;
+            align-items: center;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+        }
     
-    .botao{
-        margin-left: 8rem;
+        .primeiracoluna{
+            height: 59vh;
+            width: 90vw;
+            text-align: justify;
+            border-radius: 0rem;
+            border-top-left-radius: 1.5rem;
+            border-top-right-radius: 1.5rem;
+            padding: 3rem;
+            margin-left: 1rem; 
+            margin-right: 3rem;
+            margin-top: 3rem;
+        }
+    
+        .segundacoluna{
+            height: 53vh;
+            width: 90vw;
+            text-align: justify;
+            border-radius: 0rem;
+            border-bottom-left-radius: 1.5rem;
+            border-bottom-right-radius: 1.5rem;
+            padding: 3rem;
+            margin-left: 1rem; 
+            margin-right: 5rem;
+            margin-bottom: 3rem;
+        }
+    
+        form label, form legend{
+            text-align: left;
+        }
+        
+        .botao{
+            margin-left: 9rem;
+        }
     }
-}
+ 
