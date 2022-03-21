@@ -203,7 +203,7 @@ option{
         .conteudo{
             display:block;
             text-align: center;
-            height: 132vh;
+            height: 135vh;
             width: 100%;
             align-items: center;
             padding-top: 2rem;
@@ -213,7 +213,7 @@ option{
         }
     
         .primeiracoluna{
-            height: 65vh;
+            height: 68vh;
             width: 90vw;
             text-align: justify;
             border-radius: 0rem;
@@ -226,7 +226,7 @@ option{
         }
     
         .segundacoluna{
-            height: 54vh;
+            height: 57vh;
             width: 90vw;
             text-align: justify;
             border-radius: 0rem;
@@ -296,11 +296,11 @@ option{
         }
     }
     
-    @media (width: 415px){
+    @media (width: 414px){
         .conteudo{
             display:block;
             text-align: center;
-            height: 123vh;
+            height: 120vh;
             width: 100%;
             align-items: center;
             padding-top: 2rem;
@@ -310,7 +310,7 @@ option{
         }
     
         .primeiracoluna{
-            height: 59vh;
+            height: 57vh;
             width: 90vw;
             text-align: justify;
             border-radius: 0rem;
@@ -323,7 +323,7 @@ option{
         }
     
         .segundacoluna{
-            height: 53vh;
+            height: 51vh;
             width: 90vw;
             text-align: justify;
             border-radius: 0rem;
