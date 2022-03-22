@@ -165,7 +165,8 @@ option{
     }
 
     .primeiracoluna{
-        height: 70vh;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -178,7 +179,8 @@ option{
     }
 
     .segundacoluna{
-        height: 56vh;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -213,7 +215,8 @@ option{
     }
 
     .primeiracoluna{
-        height: 64vh;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -226,7 +229,8 @@ option{
     }
 
     .segundacoluna{
-        height: 54vh;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -262,7 +266,8 @@ option{
     }
 
     .primeiracoluna{
-        height: 60vh;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -275,7 +280,8 @@ option{
     }
 
     .segundacoluna{
-        height: 52vh;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -310,7 +316,8 @@ option{
     }
 
     .primeiracoluna{
-        height: 60vh;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
@@ -323,7 +330,8 @@ option{
     }
 
     .segundacoluna{
-        height: 53vh;
+        height: -moz-fit-content;
+        height: fit-content;
         width: 90vw;
         text-align: justify;
         border-radius: 0rem;
